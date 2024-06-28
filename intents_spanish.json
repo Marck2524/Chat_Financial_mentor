@@ -2,13 +2,13 @@
   "intents": [
        {
           "tag": "saludo",
-          "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches"],
-          "responses": ["¡Hola! ¿Como puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?", "Buenas noche, ¿en que te puedo ayudar?"]
+          "patterns": ["Hola", "Buenos días", "Buenas tardes"],
+          "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?"]
       },
       {
         "tag": "modales",
-        "patterns": ["Hola", "como estas ", "estas listo", " \¿?¿?estas lisa para trabajar", "No es lo que te pedi"],
-        "responses": ["¿Como puedo ayudarte?", "Estoy bien gracias a Dios, ¿en qué puedo asistirte?", "Hola estoy disponible para asistirte, ¿qué necesitas?", "Disculpa, tienes razon"]
+        "patterns": ["Hola", "como estas ", "estas listo", "estas lisa para trabajar"],
+        "responses": ["¿Cómo puedo ayudarte?", "Estoy bien gracias a Dios , ¿en qué puedo asistirte?", "Hola estoy disponible para asistirte , ¿qué necesitas?"]
     
       },
       {
@@ -23,8 +23,8 @@
       },
       {
           "tag": "como_ahorrar_dinero",
-          "patterns": ["¿Como puedo ahorrar dinero?", "Consejos para ahorrar", "Quiero ahorrar más"],
-          "responses": ["Puedes ahorrar dinero creando un presupuesto mensual, reduciendo gastos innecesarios y estableciendo un monto fijo para ahorrar cada mes.", "Parar ahorrar un poco mas, puede reducir tu consumo energetico y algun otro gasto innecesario "]
+          "patterns": ["¿Cómo puedo ahorrar dinero?", "Consejos para ahorrar", "Quiero ahorrar más"],
+          "responses": ["Puedes ahorrar dinero creando un presupuesto mensual, reduciendo gastos innecesarios y estableciendo un monto fijo para ahorrar cada mes."]
       },
       {
           "tag": "gestion_tiempo",
@@ -62,7 +62,7 @@
           "responses": ["Para un fondo de emergencia, ahorra entre 3 a 6 meses de gastos básicos en una cuenta separada y accesible. Contribuye regularmente a este fondo."]
       },
       {
-          "tag": "ahorrar_jubilacion",/
+          "tag": "ahorrar_jubilacion *****",
           "patterns": ["¿Como ahorro para la jubilación?", "Consejos para el retiro", "Quiero planificar mi jubilación"],
           "responses": ["Para la jubilación, contribuye a planes como un 401(k) o IRA. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos."]
       },
@@ -132,7 +132,7 @@
           "responses": ["Evita acumular deudas gastando dentro de tus límites o por debajo de ellos, usando tarjetas de crédito de manera responsable y ahorrando para compras grandes."]
       },
       {
-          "tag": "crear_fondo_jubilacion",\65\
+          "tag": "crear_fondo_jubilacion 65***",
           "patterns": ["¿Como creo un fondo de jubilación?", "Consejos para un fondo de jubilación", "Quiero crear un fondo de jubilación"],
           "responses": ["Contribuye regularmente a planes de retiro como 401(k) o IRA y ajusta tus aportaciones conforme aumenten tus ingresos."]
       },
