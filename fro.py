@@ -22,11 +22,11 @@ for message in st.session_state.messages:
 if st.session_state.first_message:
     with st.chat_message("assistant"):
         st.markdown("Hola, ¿cómo puedo ayudarte?")
-    st.session_state.messages.append({"role": "assistant", "content": "Hola, ¿Cómo puedo ayudarte?"})
+    st.session_state.messages.append({"role": "assistant", "content": "Hola, ¿Como puedo ayudarte?"})
     st.session_state.first_message = False
 
 # Entrada del usuario
-if prompt := st.chat_input("¿Cómo puedo ayudarte?"):
+if prompt := st.chat_input("¿cómo puedo ayudarte?"):
     with st.chat_message("user"):
         st.markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
