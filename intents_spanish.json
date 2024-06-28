@@ -2,13 +2,13 @@
   "intents": [
       {
           "tag": "saludo",
-          "patterns": ["Hola", "Buenos días", "Buenas tardes"],
-          "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?"]
+          "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches"],
+          "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?", "Buenas noche, ¿en que te puedo ayudar?"]
       },
       {
         "tag": "modales",
-        "patterns": ["Hola", "como estas ", "estas listo", "estas lisa para trabajar"],
-        "responses": ["¿Cómo puedo ayudarte?", "Estoy bien gracias a Dios , ¿en qué puedo asistirte?", "Hola estoy disponible para asistirte , ¿qué necesitas?"]
+        "patterns": ["Hola", "como estas ", "estas listo", " \¿?¿?estas lisa para trabajar", "No es lo que te pedi"],
+        "responses": ["¿Cómo puedo ayudarte?", "Estoy bien gracias a Dios, ¿en qué puedo asistirte?", "Hola estoy disponible para asistirte, ¿qué necesitas?", "Disculpa, tienes razon"]
     
       },
       {
@@ -24,7 +24,7 @@
       {
           "tag": "como_ahorrar_dinero",
           "patterns": ["¿Cómo puedo ahorrar dinero?", "Consejos para ahorrar", "Quiero ahorrar más"],
-          "responses": ["Puedes ahorrar dinero creando un presupuesto mensual, reduciendo gastos innecesarios y estableciendo un monto fijo para ahorrar cada mes."]
+          "responses": ["Puedes ahorrar dinero creando un presupuesto mensual, reduciendo gastos innecesarios y estableciendo un monto fijo para ahorrar cada mes.", "Parar ahorrar un poco mas, puede reducir tu consumo energetico"]
       },
       {
           "tag": "gestion_tiempo",
